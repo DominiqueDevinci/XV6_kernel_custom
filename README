@@ -1,0 +1,19 @@
+On of exercices at Polito.
+Modify an XV6 kernel to add custom semaphores features.
+See ./E02_report.pdf for explanations.
+
+The C files of the current folder are  onlythe modified ones.
+The file xv6-2012-with-sem.tar.gz contains the full xv6 modified sources.
+To test it, just do this:
+
+tar -xvf xv6-2012-with-sem.tar.gz
+cd xv6-2012-with-sem
+make qemu
+
+and then in qemu run the test
+
+./st
+
+or/and
+
+./st0 #(my custom test file).
